@@ -14,6 +14,9 @@ import { DonComponent } from './pages/don/don.component';
 import { NotificationComponent } from './pages/notification/notification.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BackgroundComponent } from './components/background/background.component';
+
 
 @NgModule({
   declarations: [
@@ -28,11 +31,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     DonComponent,
     NotificationComponent,
     InscriptionComponent,
-    NavbarComponent
+    NavbarComponent,
+    BackgroundComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
