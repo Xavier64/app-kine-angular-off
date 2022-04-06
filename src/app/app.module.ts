@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -16,6 +15,7 @@ import { InscriptionComponent } from './pages/inscription/inscription.component'
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './components/background/background.component';
+import { MatSliderModule } from '@angular/material/slider';
 
 
 @NgModule({
@@ -32,15 +32,15 @@ import { BackgroundComponent } from './components/background/background.componen
     NotificationComponent,
     InscriptionComponent,
     NavbarComponent,
-    BackgroundComponent,
-    
+    BackgroundComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSliderModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

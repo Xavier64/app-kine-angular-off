@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
+export interface Lien {
+  name:string;
+  routerLink:string;
+}
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -11,12 +16,20 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-linkHome = "home"
-linkProgramme = "programme"
-linkExercice = "exercice"
-linkProfil = "profil"
-linkContact = "contact"
-linkParametre = "parametre"
-linkLogin = "login"
+liens: Lien[] = [
 
+{name:'Home' , routerLink: "/home"},
+{name:'Programme' , routerLink: "/programme"},
+{name:'Exercice' , routerLink: "/exercice"},
+{name:'Profil' , routerLink: "/profil"},
+{name:'Contact' , routerLink: "/contact"},
+{name:'Parametre' , routerLink: "/parametre"},
+{name:'Login' , routerLink: "/login"},
+// {linkProgramme = "programme"},
+// {linkExercice = "exercice"},
+// {linkProfil = "profil"},
+// {linkContact = "contact"},
+// {linkParametre = "parametre"},
+// {linkLogin = "login"},
+];
 }

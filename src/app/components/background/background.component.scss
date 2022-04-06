@@ -1,6 +1,34 @@
 .background{
     background-color: #E2E2E2;
-    border-radius: 20px;
-    width: 70vw;
+    border-radius: 25px;
+    margin: 2%;
+    width: 85vw;
     height: 100%;
+    
+    display: flex;
+
+    .head{
+       display: flex;
+        text-align: center;
+        align-items: center;
+        width:100%;
+        height: 10%;
+
+        h1{
+            width: 50%;
+            text-align: end;
+        }
+
+
+        .imghead{
+            display: flex;
+            justify-content: flex-end;
+            height: 3vw;
+            width: 50%;
+
+             a {
+                 margin-right: 3%;
+             }
+        }
+    }
 }
