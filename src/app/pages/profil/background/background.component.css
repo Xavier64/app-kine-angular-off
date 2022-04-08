@@ -1,0 +1,30 @@
+.background {
+  background-color: #E2E2E2;
+  border-radius: 25px;
+  margin: 2%;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background .head {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  height: 10%;
+}
+.background .head h1 {
+  width: 50%;
+  text-align: end;
+}
+.background .head .imghead {
+  display: flex;
+  justify-content: flex-end;
+  height: 3vw;
+  width: 50%;
+}
+.background .head .imghead a {
+  margin-right: 3%;
+}/*# sourceMappingURL=background.component.css.map */

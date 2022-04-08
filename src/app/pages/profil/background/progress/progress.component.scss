@@ -1,0 +1,43 @@
+.container-progress{
+  margin-top: 10vw;
+  width:80vw;
+  height: 15vw;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1vw;
+  align-items: center;
+
+
+    .blogprog{
+
+        h3 {
+        font-size: 30px;
+        font-weight: bolder;
+         }
+
+        .progress{
+
+          width: 40%;
+          height: 2.5vw;
+          border-radius: 25px;
+          background-color: #E4E4E4;
+
+          .bar{
+           width: 60%;
+          height: 2.5vw;
+           background-color: rgb(54, 187, 239);
+          border-radius: 25px;
+          }
+       }
+        .level{
+            display: flex;
+            width: 10vw;
+
+              }
+
+    }
+
+}

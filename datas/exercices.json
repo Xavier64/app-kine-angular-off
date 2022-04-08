@@ -1,0 +1,41 @@
+[
+  {"id": 1,
+   "nom": "grenouille",
+   "repetition":3
+  },
+
+  {"id": 2,
+   "nom": "ours",
+   "repetition":10
+  },
+
+  {"id": 3,
+   "nom": "planche",
+   "repetition":5
+  },
+
+  {"id": 4,
+    "nom": "rampe",
+    "repetition":8
+  },
+
+  {"id": 5,
+    "nom": "Escalier",
+    "repetition":10
+  },
+
+  {"id": 6,
+    "nom": "oursexp",
+    "valeur":10
+   },
+
+   {"id": 7,
+    "nom": "plancheexp",
+    "valeur":20
+   },
+
+   {"id": 8,
+    "nom": "escalierexp",
+    "valeur":15
+   }
+]

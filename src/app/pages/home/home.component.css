@@ -1,1 +1,12 @@
-/*# sourceMappingURL=home.component.css.map */
+.container {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+}
+
+.progress {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  width: 20vw;
+  height: 20vw;
+}/*# sourceMappingURL=home.component.css.map */

@@ -14,8 +14,12 @@ import { NotificationComponent } from './pages/notification/notification.compone
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BackgroundComponent } from './components/background/background.component';
+import { BackgroundComponent } from './pages/profil/background/background.component';
 import { MatSliderModule } from '@angular/material/slider';
+import { ProgressComponent } from './pages/profil/background/progress/progress.component';
+import { BackgroundhomeComponent } from './pages/home/backgroundhome/backgroundhome.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -32,13 +36,17 @@ import { MatSliderModule } from '@angular/material/slider';
     NotificationComponent,
     InscriptionComponent,
     NavbarComponent,
-    BackgroundComponent, 
+    BackgroundComponent,
+    ProgressComponent,
+    BackgroundhomeComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
