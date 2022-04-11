@@ -32,4 +32,6 @@ liens: Lien[] = [
 // {linkParametre = "parametre"},
 // {linkLogin = "login"},
 ];
+
 }
+

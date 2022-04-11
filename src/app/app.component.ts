@@ -16,5 +16,12 @@ ngOnInit(): void {
 const toto = this.configService.getData();
 }
 
+onChercher() {
+  console.log("click ok");
+  const toto = this.configService.Exercice().subscribe(data => console.log(data)
+  );
+
+}
+
 
 }

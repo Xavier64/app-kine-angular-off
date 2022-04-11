@@ -128,13 +128,24 @@ nav {
         grid-template-rows : 14% 14% 14% 14% 14% 14% 14%;
 
 
+
         li{
             height: 100%;
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            &:hover{
+              background-color: #5c5a5a;
+
             }
+
+            }
+
+                a:hover{
+                  transform: scale(1.1);
+                }
 
         }
     }
