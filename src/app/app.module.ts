@@ -19,6 +19,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { ProgressComponent } from './pages/profil/background/progress/progress.component';
 import { BackgroundhomeComponent } from './pages/home/backgroundhome/backgroundhome.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AccordionComponent } from './components/accordion/accordion.component';
+
 
 
 
@@ -39,6 +41,8 @@ import { HttpClientModule } from '@angular/common/http';
     BackgroundComponent,
     ProgressComponent,
     BackgroundhomeComponent,
+    AccordionComponent,
+
 
   ],
   imports: [
@@ -46,7 +50,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    HttpClientModule
+    HttpClientModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent],
